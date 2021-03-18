@@ -1,0 +1,45 @@
+h1{
+    color:rgb(89, 0, 255);
+    border:solid;
+    padding:50px;
+}
+
+
+.header{
+background-color: rgb(255, 235, 235);
+display:flex;
+justify-content:space-around;
+}
+
+.allgames{
+    display:flex;
+    justify-content:space-between;
+}
+.socialmedia{
+    display:flex;
+    justify-content:flex-end;
+}
+h2,p{
+    text-align:center;
+}
+a:link{
+    color:#ffd700;
+}
+a:visited{
+    color:blue
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:35%;
+    opacity:0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+opacity:0.3;
+}
